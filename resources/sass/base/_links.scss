@@ -2,7 +2,8 @@
 //==========  Links ==========//
 
 a {
-    @apply text-purple-900 no-underline transition-all duration-300 ease-out;
+    @apply text-gray-600 no-underline transition-all duration-300 ease-out;
+
 
     &:not([class]) {
         border-bottom-width: 2px;

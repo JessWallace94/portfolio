@@ -10,7 +10,7 @@ layout: default
         <div class="mb-12 md:mb-20">
 
             <header>
-                <h1 class="page-title text-3xl md:text-center md:text-5xl lg:text-6xl">{{ title }}</h1>
+                <h1 class="page-title text-3xl md:text-center md:text-5xl lg:text-6xl text-white">{{ title }}</h1>
             </header>
 
             <div class="text-sm md:text-base text-gray-600 flex justify-center">
@@ -67,7 +67,7 @@ layout: default
 
         </div>
 
-        <div class="content post md:px-16">
+        <div class="content post md:px-16 text-white">
 
             {{ content | safe }}
 
@@ -81,7 +81,7 @@ layout: default
                         {%- if item != "blog" -%}
 
                             <li class="mr-2">
-                                <a class="inline-block px-3 py-2 text-white bg-purple-900 text-xs font-semibold rounded hover:text-white hover:bg-pink-500" href="/category/{{ item }}">{{ item | capitalize }}</a>
+                                <a class="text-sm text-pink-600" href="/category/{{ item }}"> — {{ item | capitalize }}</a>
                             </li>
 
                         {%- endif -%}

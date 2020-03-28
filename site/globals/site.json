@@ -1,10 +1,10 @@
 {
-    "name": "Skeleventy",
-    "url": "https://skeleventy.netlify.com",
+    "name": "Jess Wallace",
+    "url": "https://jesswallace.co",
     "author": {
-        "name": "Max Power",
-        "email": "hello@maxpower.com",
-        "handle": "@maxpower",
+        "name": "Jess Wallace",
+        "email": "jw@jesswallace.co",
+        "handle": "@jesswallaceuk",
         "avatar": "/images/blog/author.jpg"
     },
     "images": {
@@ -14,20 +14,8 @@
         "og": "/images/meta/og.jpg"
     },
     "social_links": {
-        "facebook": "https://www.facebook.com",
-        "twitter": "https://twitter.com/joe_dyer1",
-        "linkedin": "https://www.linkedin.com"
-    },
-    "address": {
-        "street": "123 Fake Street",
-        "street_2": "Fake Road",
-        "city": "London",
-        "postcode": "LN1 234",
-        "country": "GB"
-    },
-    "contact": {
-        "phone": "123 456 789",
-        "mobile": "(+44) 1234 5678",
-        "email": "hello@maxpower.com"
+        "facebook": "https://www.facebook.com/",
+        "twitter": "https://twitter.com/jesswallaceuk",
+        "linkedin": "https://www.linkedin.com"    
     }
 }

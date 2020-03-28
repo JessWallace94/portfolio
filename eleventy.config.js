@@ -41,6 +41,13 @@ module.exports = eleventyConfig => {
 
     })
 
+    eleventyConfig.addCollection("feed", collection => {
+        return collection
+          .getFilteredByTag("blog")
+          .reverse()
+          .slice(0, 3);
+      });
+
     // Layout aliases
     eleventyConfig.addLayoutAlias('default', 'layouts/default.njk')
     eleventyConfig.addLayoutAlias('post', 'layouts/post.njk')

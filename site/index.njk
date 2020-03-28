@@ -1,42 +1,53 @@
 ---
 layout: default
-meta_title: Home
-meta_description: Skeleventy is a beautiful, powerful skeleton boilerplate built with Eleventy and TailwindCSS
+meta_title: Jess Wallace | Data Analyst in Performance Marketing at William Hill
+meta_description: A quick side project to combine my joy for Animal Crossing and learning a new Static Site Generator!
 body_class: home
-title: Welcome to Skeleventy!
+title: Jess Wallace | Data Analyst in Performance Marketing at William Hill
 ---
 
-<main id="main" class="main inner flex flex-1 flex-col py-10 lg:py-20 focus:outline-none" tabindex="-1">
+<main id="main" class="main container inner flex flex-1 flex-col py-10 lg:py-20 focus:outline-none" tabindex="-1">
+    <div class="pb-20 lg:pb-30">
+        <h4 class="text-04 uppercase font-semibold mt-5 mb-6 lg:mb-12 glitch" data-text="00 — About">
+            00 — About
+        </h4>
 
-    <section id="container-centre" class="column centre flex-1" aria-label="Summary and features">
+        {% include 'partials/about.njk' %}
 
-        <h1 class="page-title">{{ title }}</h1>
+    </div>
+    <div class="pb-20 lg:pb-30">
+        <h4 class="text-04 uppercase font-semibold mt-5 mb-8 lg:mb-8 glitch" data-text="00 — About">
+            01 — Projects
+        </h4>
 
-        <div class="content">
+        {% include 'partials/work.njk' %}
 
-            <p>A skeleton boilerplate built with <a href="https://www.11ty.dev/docs/">Eleventy</a> and <a href="https://tailwindcss.com">TailwindCSS</a>.</p>
+    </div>
+    <div class="pb-20 lg:pb-30">
+        <h4 class="text-4 uppercase font-semibold mt-16 mb-8 lg:mb-8 glitch" data-text="01 — Writing on the wall">
+            02 — Writing on the Wall
+        </h4>
 
-            <h2 class="text-3xl">Features</h2>
+        {% include 'partials/writing.njk' %}
 
-            <ul class="mb-12 list-disc pl-4">
-                <li>Build sites faster with the power of Eleventy, TailwindCSS and SCSS</li>
-                <li><a href="https://laravel-mix.com/docs/5.0/basic-example">Laravel Mix</a> (webpack) to watch, concatenate and compile styles and scripts</li>
-                <li><a href="https://www.purgecss.com/">Purgecss</a> to remove any unused CSS</li>
-                <li>HTML minifier</li>
-                <li>ES6 support with Babel</li>
-                <li>SEO friendly pages (including Open Graph and Twitter meta)</li>
-                <li>Image lazyloading</li>
-                <li>A simple blog with categories and featured images</li>
-            </ul>
+    </div>
 
-            <h2 class="text-3xl">Want to give it a spin?</h2>
+    <div class="pb-20 lg:pb-30">
 
-            <p>Check out the <a href="https://github.com/josephdyer/skeleventy">full documentation</a> on how to get started.</p>
+        <h4 class="text-04 uppercase font-semibold mt-5 mb-6 lg:mb-12 glitch" data-text="03 — Talk">
+            03 — Lets Talk
+        </h4>
 
-        </div>
+        <p class="text-02 text-md lg:text-lg mt-3 mb-4 text-gray-400">
+            You'll find my digital breadcrumbs scattered across the internet, and likely able to find multiple ways to contact me. But here, I'll make it easy. 
+            The quickest way to get a response is to reach out on <a href='https://www.twitter.com/jesswallaceuk' target="_blank">Twitter</a>, I might not post regularly but I check it multiple times through the day (probably too much..). 
+            If Twitter isn't your thing, then feel free to drop me an <a href='mailto:jw@jesswallace.co' target="_blank">email</a>, I love having email penpals. 
+        </p>
+    </div>
 
-    </section>
+
+
+
+
 
 </main>
-
-

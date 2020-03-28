@@ -1,24 +1,173 @@
 ---
 layout: default
-meta_title: About
-meta_description: About page description
+meta_title: About Jess Wallace | Data Analyst in Performance Marketing at William Hill
+meta_description: Data Analyst in Performance Marketing at William Hill
 body_class: about
-title: About
+title: About Jess Wallace | Data Analyst in Performance Marketing at William Hill
 ---
+<main id="main" class="main container mx-auto inner flex flex-1 flex-col py-10 lg:py-10 focus:outline-none"
+    tabindex="-1">
 
-<main id="main" class="main inner flex flex-1 flex-col py-10 lg:py-20 focus:outline-none" tabindex="-1">
-
-    <article id="container-centre" class="column centre flex-1">
-
-        <header>
-            <h1 class="page-title">{{ title }}</h1>
-        </header>
+    <section class="column centre flex-1" aria-label="About">
 
         <div class="content">
-           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil dolor ipsum voluptatum dicta eveniet commodi molestiae! Suscipit, magnam cumque, illum ab amet ipsum deserunt distinctio est dolore dolor ad ipsa cupiditate minus soluta, possimus accusamus.</p><p> Ipsa facilis sint, beatae aperiam enim expedita voluptas dolores suscipit reiciendis similique alias, odio repellendus placeat asperiores error laboriosam eligendi accusantium in eos! Dolores labore excepturi doloremque. Rem ipsa quae tempore dignissimos doloribus recusandae quam quibusdam mollitia ex voluptas, repellat dolor et beatae sint nesciunt ad cupiditate cum debitis dolorum earum? Error adipisci optio in ea accusamus incidunt eligendi consequatur, quod impedit dolorem atque quaerat?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil dolor ipsum voluptatum dicta eveniet commodi molestiae! Suscipit, magnam cumque, illum ab amet ipsum deserunt distinctio est dolore dolor ad ipsa cupiditate minus soluta, possimus accusamus. Ipsa facilis sint, beatae aperiam enim expedita voluptas dolores suscipit reiciendis similique alias, odio repellendus placeat asperiores error laboriosam eligendi accusantium in eos! Dolores labore excepturi doloremque. Rem ipsa quae tempore dignissimos doloribus recusandae quam quibusdam mollitia ex voluptas, repellat dolor et beatae sint nesciunt ad cupiditate cum debitis dolorum earum? Error adipisci optio in ea accusamus incidunt eligendi consequatur, quod impedit dolorem atque quaerat?</p>
+            {# 00 - Who am I? #}
+            <div class="pb-20 lg:pb-30">
+                <h4 class="text-04 uppercase font-semibold mt-5 mb-6 lg:mb-12 glitch" data-text="00 — About">
+                    00 — Who am I?
+                </h4>
+
+                {% include 'partials/about.njk' %}
+            </div>
+
+
+            {# 01 - Employment History #}
+            <div class="pb-20 lg:pb-30">
+                <h4 class="text-04 uppercase font-semibold mt-5 mb-6 lg:mb-10 glitch"
+                    data-text="01 — Employment History">
+                    01 — Employment History
+                </h4>
+
+                <ul class="opacity-75">
+                    <li>
+                        <a href="#" class="block hover:bg-gray-50 focus:outline-none focus:bg-gray-50">
+                            <div class=" py-4">
+                                <div class="flex items-center justify-between">
+                                    <div class="text-sm leading-5 font-medium truncate text-white">
+                                        Performance Marketing Analyst
+                                    </div>
+                                    <div class="ml-2 flex-shrink-0 flex">
+                                        <span
+                                            class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                                            Full-time
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="mt-2 flex justify-between">
+                                    <div class="sm:flex">
+                                        <div class="mr-6 flex items-center text-sm leading-5 text-yellow-500">
+                                            William Hill
+                                        </div>
+                                    </div>
+                                    <div class="flex items-center text-sm leading-5 text-gray-500">
+                                        <div class="flex items-center text-sm leading-5 text-white">
+                                            February 2020 - Present
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="border-t border-gray-200 opacity-50">
+                        <a href="#" class="block hover:bg-gray-50 focus:outline-none focus:bg-gray-50">
+                            <div class=" py-4">
+                                <div class="flex items-center justify-between">
+                                    <div class="text-sm leading-5 font-medium truncate text-white">
+                                        Information Analyst
+                                    </div>
+                                    <div class="ml-2 flex-shrink-0 flex">
+                                        <span
+                                            class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                                            Full-time
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="mt-2 flex justify-between">
+                                    <div class="sm:flex">
+                                        <div class="mr-6 flex items-center text-sm leading-5 text-teal-500">
+                                            Elysium Healthcare
+                                        </div>
+                                    </div>
+                                    <div class="flex items-center text-sm leading-5 text-gray-500">
+                                        <div class="flex items-center text-sm leading-5 text-white">
+                                            January 2018 - January 2020
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="border-t border-gray-200 opacity-50">
+                        <a href="#" class="block hover:bg-gray-50 focus:outline-none focus:bg-gray-50">
+                            <div class=" py-4">
+                                <div class="flex items-center justify-between">
+                                    <div class="text-sm leading-5 font-medium truncate text-white">
+                                        Pricing Analyst
+                                    </div>
+                                    <div class="ml-2 flex-shrink-0 flex">
+                                        <span
+                                            class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                                            Full-time
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="mt-2 flex justify-between">
+                                    <div class="sm:flex">
+                                        <div class="mr-6 flex items-center text-sm leading-5 text-green-500">
+                                            Europcar
+                                        </div>
+                                    </div>
+                                    <div class="flex items-center text-sm leading-5 text-gray-500">
+                                        <div class="flex items-center text-sm leading-5 text-white">
+                                            August 2017 - January 2018
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="border-t border-gray-200 opacity-50">
+                        <a href="#" class="block hover:bg-gray-50 focus:outline-none focus:bg-gray-50">
+                            <div class=" py-4">
+                                <div class="flex items-center justify-between">
+                                    <div class="text-sm leading-5 font-medium truncate text-white">
+                                        Various Recruitment / Sales Roles
+                                    </div>
+
+                                </div>
+                                <div class="mt-2 flex justify-between">
+                                    <div class="sm:flex">
+                                        <div class="mr-6 flex items-center text-sm leading-5 text-green-500">
+                                            See LinkedIn for further information
+                                        </div>
+                                    </div>
+                                    <div class="flex items-center text-sm leading-5 text-gray-500">
+                                        <div class="flex items-center text-sm leading-5 text-white">
+                                            January 2011 - August 2017
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            {# 02 - Currently Reading #}
+            <div class="pb-20 lg:pb-30">
+                <h4 class="text-04 uppercase font-semibold mt-5 mb-6 lg:mb-12 glitch"
+                    data-text="02 — Currently Reading">
+                    02 — Currently Reading
+                </h4>
+
+                <p class="text-xl lg:text-1xl my-6 md:my-8 text-gray-700 italic">
+                    Section Coming Soon ⏰
+                </p>
+            </div>
+
+            {# 00 - Who am I? #}
+            <div class="pb-20 lg:pb-30">
+                <h4 class="text-04 uppercase font-semibold mt-5 mb-6 lg:mb-12 glitch" data-text="03 — Podcast Playlist">
+                    03 - Podcast Playlist
+                </h4>
+                 <p class="text-xl lg:text-1xl my-6 md:my-8 text-gray-700 italic">
+                    Section Coming Soon ⏰
+                </p>
+
+            </div>
+
         </div>
 
-    </article>
+    </section>
 
 </main>

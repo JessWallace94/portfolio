@@ -1,0 +1,22 @@
+
+
+<div class="py-4">
+    {% for post in collections.feed%}
+    <h2 class="text-xl font-bold mb-6 underline"><a class="block text-gray-200 hover:text-pink-500"
+            href="{{ post.url }}">{{ post.data.title }}</a></h2>
+    <h3 class="text-sm text-gray-600">
+        <time datetime="{{ post.date }}">
+                    {{ post.date | dateDisplay }}
+                </time>
+    </h3>
+    <h3 class="font-light text-gray-700">{{ post.data.excerpt }}</h3>
+    
+
+    {% endfor %}
+    <p class="mt-6">
+                <a href="#" class="font-medium text-gray-200 hover:text-indigo-900">Jump into my thoughts &rarr; </a>
+            </p>
+</div>
+
+
+
