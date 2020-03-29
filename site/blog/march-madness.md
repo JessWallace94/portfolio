@@ -3,7 +3,7 @@ title: March Madness
 date: 2020-03-29
 featured_image: ../../images/blog/marchmadness/covid.jpg
 image_caption: Photo by Markus Spiske on Unsplash
-excerpt: A meeting is a gathering of two or more people that has been convened for the purpose of achieving a common goal through verbal interaction.
+excerpt: A reflection on the worldwide impact of COVID-19 over the last four weeks, and it's expected long term impact
 tags:
     - blog
     - life
