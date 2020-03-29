@@ -35,6 +35,17 @@
 
     {# canonical #}
     <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118575748-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-118575748-1');
+    </script>
+
 </head>
 
 <body {% if body_class %} id="{{ body_class }}"{% endif %} class="bg-gray-900 text-gray-700 leading-normal text-lg">
